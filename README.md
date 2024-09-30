@@ -21,6 +21,7 @@ The **System Monitor Application** is a robust tool developed in C++ using the Q
      - **Refresh:** Update the process list to reflect the current state.
      - **Kill Process:** Terminate a selected process.
      - **Renice Process:** Adjust the priority of a selected process.
+     - **View Subprocesses:** Input a PID to view its associated subprocesses along with their commands in a dialog box.
 
 4. **Dynamic Data Updates:**
    - Regularly updates CPU and memory metrics to provide live system insights.
@@ -66,3 +67,4 @@ Ensure you have Qt installed. You can build the project using qmake and make:
   - **Refresh List:** Update the process list to reflect current active processes.
   - **Kill Process:** Terminate a selected process by PID.  
   - **Renice Process:** Change the priority of a selected process by PID.
+  - **View Subprocesses:** Enter a PID to view its associated subprocesses along with their commands in a dialog window.
